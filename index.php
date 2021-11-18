@@ -39,7 +39,7 @@
 <div id="Projetos">
     <div class="projetos-titulo">
         <h1>Projetos</h1>
-        <img class="seta_irProjetos" src="/assets/img/seta_homepage-02.png" width="208" height="208">
+        <img class="seta_irProjetos" src="/assets/img/seta_homepage-02.png" width="208" height="208" alt="seta">
     </div>
 
     <div id="Filtros">
@@ -60,7 +60,7 @@
         </div>
         <div class="ordenacao-alfabetica">
             <p>Hoje</p>
-            <div class="animacao_ordenacao"></div>
+            <div id="animacaoOrdenacao"></div>
             <p>2018</p>
         </div>
         <div id="Pesquisa">
@@ -83,6 +83,7 @@
 
 <?php include "footer.php" ?>
 
+<script type="text/javascript" src="assets/js/lottie.js"></script>
 <script type="text/javascript" src="assets/js/index.js"></script>
 <script type="text/javascript" src="assets/js/animations.js"></script>
 </body>
