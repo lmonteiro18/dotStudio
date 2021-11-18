@@ -1,0 +1,29 @@
+footer {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 175px;
+}
+
+.copyright {
+    align-self: flex-end;
+    margin: 0;
+}
+
+.rede-social a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.rede-social p {
+    align-self: center;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+.rede-social i {
+    align-self: center;
+}

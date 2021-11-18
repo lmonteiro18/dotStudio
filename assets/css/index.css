@@ -1,0 +1,218 @@
+.image-carousel {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.image-carousel-img {
+    width: 100%;
+    transform: translateY(-250px);
+    overflow-x: hidden;
+}
+
+#Projetos {
+    position: relative;
+}
+
+.projetos-titulo {
+    display: flex;
+    justify-content: space-between;
+    margin: 475px 0 0 0;
+}
+
+.projetos-titulo h1 {
+    color: white;
+    font-size: 3.25rem;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 18px;
+}
+
+.seta_irProjetos {
+    background-image: url("seta-homepage-01.png");
+    cursor: pointer;
+    float: right;
+    height: auto;
+    opacity: 50%;
+    transition: all .25s;
+    width: 11.5%;
+}
+
+.seta_irProjetos:hover {
+    opacity: 100%;
+}
+
+#Filtros {
+    background-color: black;
+    color: white;
+    display: block;
+    float: left;
+    margin: 75px 0 30px 0;
+    padding-top: 30px;
+    position: sticky;
+    top: -1px;
+    width: 100%;
+    z-index: 15;
+}
+
+#Filtros>ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+}
+
+.filtro {
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 50px;
+    transition: color .25s;
+}
+
+.filtro:last-child {
+    opacity: 50%;
+    margin-right: 0;
+    transition: opacity .25s;
+}
+
+.filtro:first-child:hover {
+    color: #E111A7;
+}
+
+.filtro:nth-child(2):hover {
+    color: #00FFFF;
+}
+
+.filtro:nth-child(3):hover {
+    color: #B4FF00;
+}
+
+.filtro:nth-child(4):hover {
+    color: #0000FF;
+}
+
+.filtro:last-child:hover {
+    opacity: 100%;
+}
+
+#Ordenacao {
+    color: white;
+    float: right;
+    margin: 0;
+    position: sticky;
+    right: 0;
+    top: 30px;
+    width: 10%;
+    z-index: 16;
+}
+
+.ordenacao-temporal {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    margin: 0 2vw 40px 0;
+    width: 100%;
+}
+
+.ordenacao-temporal p:first-child {
+    margin: 0 0 10px 0;
+}
+
+.ordenacao-temporal p:last-child {
+    margin: 10px 0 0 0;
+}
+
+.ordenacao-temporal svg {
+    display: inline-block;
+    height: 130px;
+    width: 100px;
+}
+
+.ordenacao-alfabetica {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+.ordenacao-alfabetica svg {
+    display: inline-block;
+    height: 130px;
+    width: 100px;
+}
+
+.ordenacao-alfabetica p:first-child {
+    margin: 0 0 10px 0;
+}
+
+.ordenacao-alfabetica p:last-child {
+    margin: 10px 0 0 0;
+}
+
+#Pesquisa {
+    margin: 70px 0 0 0;
+    width: 100%;
+}
+
+#Pesquisa svg {
+    display: inline-block;
+    height: 130px;
+    position: relative;
+    width: 100%;
+}
+
+#listaProjetos {
+    height: auto;
+    /* overflow-y: scroll; */
+    width: 100%;
+}
+
+.projeto {
+    color: white;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.projeto a {
+    color: white;
+    cursor: pointer;
+    height: 100%;
+    text-decoration: none;
+    width: 100%;
+}
+
+.projeto .thumbnail:hover .thumbnailImgOverlay {
+    opacity: 100%;
+}
+
+.thumbnail__img {
+    position: relative;
+}
+
+.thumbnail__img>img {
+    height: auto;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.thumbnailImgOverlay {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 15px);
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transition: opacity .5s;
+    width: 100%;
+    z-index: 10;
+}
+
+.thumbnailImgOverlay p {
+    margin: 0;
+}
