@@ -53,21 +53,18 @@
     </div>
 
     <div id="Ordenacao">
-        <div class="ordenacao-temporal">
+        <div class="ordenacao-alfabetica">
             <p>A</p>
-
+            <div id="animacaoOrdenacaoAlfabetica"></div>
             <p>Z</p>
         </div>
-        <div class="ordenacao-alfabetica">
+        <div class="ordenacao-temporal">
             <p>Hoje</p>
-            <div id="animacaoOrdenacao"></div>
+            <div id="animacaoOrdenacaoTemporal"></div>
             <p>2018</p>
         </div>
         <div id="Pesquisa">
-            <svg>
-                <line x1="34" y1="66" x2="59" y2="89" style="stroke:white;stroke-width:4"/>
-                <circle cx="24" cy="56" r="15" style="stroke: white; stroke-width: 4"></circle>
-            </svg>
+            <div id="contentorAnimacaoLupa"></div>
         </div>
     </div>
 
@@ -84,7 +81,7 @@
 <?php include "footer.php" ?>
 
 <script type="text/javascript" src="assets/js/lottie.js"></script>
-<script type="text/javascript" src="assets/js/index.js"></script>
 <script type="text/javascript" src="assets/js/animations.js"></script>
+<script type="text/javascript" src="assets/js/index.js"></script>
 </body>
 </html>

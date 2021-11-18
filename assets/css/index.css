@@ -105,63 +105,46 @@
     position: sticky;
     right: 0;
     top: 30px;
-    width: 10%;
+    width: 75px;
     z-index: 16;
+}
+
+#animacaoOrdenacaoAlfabetica, #animacaoOrdenacaoTemporal {
+    height: auto;
+    margin: auto;
+    overflow: visible;
+    width: 30%;
+}
+
+.ordenacao-alfabetica {
+    display: inline-block;
+    height: 100%;
+    margin: 0 0 25px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.ordenacao-alfabetica p:first-child, .ordenacao-temporal p:first-child {
+    margin: 0 0 10px 0;
+}
+
+.ordenacao-alfabetica p:last-child, .ordenacao-temporal p:last-child {
+    margin: 10px 0 0 0;
 }
 
 .ordenacao-temporal {
     display: inline-block;
     height: 100%;
     text-align: center;
-    margin: 0 2vw 40px 0;
     width: 100%;
-}
-
-.ordenacao-temporal p:first-child {
-    margin: 0 0 10px 0;
-}
-
-.ordenacao-temporal p:last-child {
-    margin: 10px 0 0 0;
-}
-
-.ordenacao-temporal svg {
-    display: inline-block;
-    height: 130px;
-    width: 100px;
-}
-
-.ordenacao-alfabetica {
-    display: inline-block;
-    height: 100%;
-    text-align: center;
-    width: 100%;
-}
-
-.ordenacao-alfabetica svg {
-    display: inline-block;
-    height: 130px;
-    width: 100px;
-}
-
-.ordenacao-alfabetica p:first-child {
-    margin: 0 0 10px 0;
-}
-
-.ordenacao-alfabetica p:last-child {
-    margin: 10px 0 0 0;
 }
 
 #Pesquisa {
+    bottom: -175px;
     margin: 70px 0 0 0;
-    width: 100%;
-}
-
-#Pesquisa svg {
-    display: inline-block;
-    height: 130px;
-    position: relative;
-    width: 100%;
+    position: absolute;
+    right: 0;
+    width: 200px;
 }
 
 #listaProjetos {
