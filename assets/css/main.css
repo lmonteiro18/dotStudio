@@ -8,6 +8,7 @@ body {
     background-color: black;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
+    height: auto;
     margin: 0;
     overflow-y: scroll;
     padding: 30px 70px 30px 70px;
@@ -16,4 +17,14 @@ body {
 a{
     text-decoration: none;
     color: white;
+}
+
+@media screen and (max-width: 768px){
+    html {
+        font-size: 15pt;
+    }
+
+    body{
+        padding: 15px 15px 15px 15px;
+    }
 }

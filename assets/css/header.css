@@ -47,6 +47,10 @@ nav {
     margin-right: 50px;
 }
 
+.menu-navegacao-subtitulo:last-child {
+    margin-right: 0;
+}
+
 .menu-navegacao-subtitulo a {
     color: white;
     height: 100%;
@@ -57,10 +61,92 @@ nav {
     transition: all .25s;
 }
 
-.menu-navegacao-subtitulo a:hover {
-    opacity: 50%;
+.menu-navegacao-subtitulo:first-child a:hover {
+    color: #E111A7;
 }
 
-.menu-navegacao-subtitulo:last-child {
-    margin-right: 0;
+.menu-navegacao-subtitulo:nth-child(2) a:hover {
+    color: #00FFFF;
+}
+
+.menu-navegacao-subtitulo:last-child a:hover {
+    color: #B4FF00;
+}
+
+#mobile-header {
+    display: none;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        display: none;
+    }
+
+    #mobile-header {
+        display: block;
+    }
+
+    #mobile-nav {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        justify-content: space-between;
+        margin-bottom: 60px;
+    }
+
+    .mobile-menu-flex-item:first-of-type {
+        align-self: baseline;
+        z-index: 25;
+    }
+
+    .mobile-menu-flex-item:last-of-type {
+        align-self: baseline;
+        cursor: pointer;
+        z-index: 25;
+    }
+
+    .mobile-nav-flex-container {
+        background-color: black;
+        height: 100vh;
+        left: 0;
+        margin-top: 0;
+        padding: 50px 15px 0 15px;
+        position: absolute;
+        top: -100vh;
+        transition: top 1.5s;
+        width: 100%;
+        z-index: 20;
+    }
+
+    .mobile-menu-navegacao {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        font-size: 2.5rem;
+        height: 100%;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+    }
+
+    .mobile-menu-navegacao-subtitulo {
+        margin-bottom: 20px;
+    }
+
+    .mobile-menu-navegacao-subtitulo:first-child a:active {
+        color: #E111A7;
+    }
+
+    .mobile-menu-navegacao-subtitulo:nth-child(2) a:active {
+        color: #00FFFF;
+    }
+
+    .mobile-menu-navegacao-subtitulo:last-child a:active {
+        color: #B4FF00;
+    }
+
+    .mobile-menu-navegacao-subtitulo a:active {
+        color: white;
+    }
 }

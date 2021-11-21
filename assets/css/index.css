@@ -1,15 +1,17 @@
 .image-carousel {
-    position: absolute;
-    left: 0;
-    width: 100%;
+    align-items: center;
+    background-color: rgba(200, 200, 200, 0.15);
+    display: flex;
     height: 400px;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    justify-content: center;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
 }
 
 .image-carousel-img {
-    width: 100%;
-    transform: translateY(-250px);
+    height: 100%;
     overflow-x: hidden;
 }
 
@@ -58,7 +60,7 @@
     z-index: 15;
 }
 
-#Filtros>ul {
+#Filtros > ul {
     display: flex;
     justify-content: flex-start;
     list-style: none;
@@ -96,6 +98,10 @@
 
 .filtro:last-child:hover {
     opacity: 100%;
+}
+
+#FiltrosOrdenacaoMobile {
+    display: none;
 }
 
 #Ordenacao {
@@ -156,6 +162,7 @@
 .projeto {
     color: white;
     margin-bottom: 50px;
+    padding-left: 0;
     position: relative;
 }
 
@@ -175,7 +182,7 @@
     position: relative;
 }
 
-.thumbnail__img>img {
+.thumbnail__img > img {
     height: auto;
     margin-bottom: 15px;
     width: 100%;
@@ -198,4 +205,62 @@
 
 .thumbnailImgOverlay p {
     margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .image-carousel {
+        height: 60vh;
+        z-index: -10;
+    }
+
+    .image-carousel-img {
+        height: auto;
+        width: 100%;
+    }
+
+    .projetos-titulo {
+        display: flex;
+        justify-content: space-between;
+        margin: 80vh 0 0 0;
+    }
+
+    .projetos-titulo h1 {
+        font-size: 1.5rem;
+    }
+
+    #Filtros, #Ordenacao {
+        display: none;
+    }
+
+    #FiltrosOrdenacaoMobile {
+        color: white;
+        display: block;
+        margin-top: 20px;
+    }
+
+    #DivBotoesFiltragemMobile {
+        display: block;
+    }
+
+    #DivBotoesFiltragemMobile > ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        font-size: 0.9rem;
+        list-style: none;
+    }
+
+    #FiltrosMobile, #OrdenacaoMobile {
+        display: none;
+        justify-content: flex-start;
+        position: absolute;
+    }
+
+    .projeto {
+        padding-right: 0;
+    }
+
+    .thumbnail_title{
+        padding: 0 15px 0 15px;
+    }
 }

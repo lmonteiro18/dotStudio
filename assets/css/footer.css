@@ -27,3 +27,18 @@ footer {
 .rede-social i {
     align-self: center;
 }
+
+@media screen and (max-width: 768px){
+    footer{
+        flex-direction: column-reverse;
+    }
+
+    .copyright {
+        align-self: center;
+        margin-top: 30px;
+    }
+
+    .rede-social a{
+        justify-content: center;
+    }
+}

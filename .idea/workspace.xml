@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30220c67-0d90-4615-8f7a-d74c5f909d51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/animation/ordenacao_animation1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/animation/ordenacao_animation.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/animations.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/animations.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
@@ -54,6 +54,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luis-\Documents\DeVolta_HP_Pai\MDM\Desenvolvimento Web\Projeto\dotStudio" />
       <recent name="C:\Users\luis-\Documents\DeVolta_HP_Pai\MDM\Desenvolvimento Web\Exercicio2\assets\css" />
       <recent name="C:\Users\luis-\Documents\DeVolta_HP_Pai\MDM\Desenvolvimento Web\Exercicio2" />
     </key>
@@ -83,7 +84,8 @@
       <workItem from="1637172244677" duration="445000" />
       <workItem from="1637185844549" duration="5981000" />
       <workItem from="1637194766459" duration="776000" />
-      <workItem from="1637227696920" duration="16405000" />
+      <workItem from="1637227696920" duration="33904000" />
+      <workItem from="1637496072807" duration="6251000" />
     </task>
     <servers />
   </component>
