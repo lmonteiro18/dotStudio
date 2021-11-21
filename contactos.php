@@ -16,9 +16,9 @@
     <!-- FontAwesome Script -->
     <script src="https://kit.fontawesome.com/4d4aefe869.js" crossorigin="anonymous"></script>
 
-    <link href="header.css" rel="stylesheet" type="text/css">
-    <link href="footer.css" rel="stylesheet" type="text/css">
-    <link href="contactos.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/header.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/footer.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/contactos.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>
@@ -126,6 +126,6 @@
 
     <?php include "footer.php" ?>
 
-<script src="contactos.js"></script>
+<script src="assets/js/contactos.js"></script>
 </body>
 

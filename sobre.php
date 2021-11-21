@@ -12,7 +12,7 @@
     <!--https://www.w3schools.com/bootstrap/bootstrap_get_started.asp e
     https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_default&stacked=h
     sites sobre bootstrap-->
-    <link href="sobre.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/sobre.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header>
@@ -49,7 +49,7 @@
                     branding design são duas das áreas de design gráfico de eu gosto de trabalhar. </p>
             </div>
             <div class="col-lg-4">
-                <img id="imagemiris" class="textosobreanimacaoiris" src="IMG_8498_1%20-%20square.jpg"
+                <img id="imagemiris" class="textosobreanimacaoiris" src="assets/img/IMG_8498_1%20-%20square.jpg"
                      alt="imagem íris">
             </div>
         </div>
@@ -60,7 +60,7 @@
         </div>
         <div class="rowtextoisa">
             <div class="col-lg-4">
-                <img id="imagemisa" class="textosobreanimacaoisa" src="IMG_4870_1.jpg"
+                <img id="imagemisa" class="textosobreanimacaoisa" src="assets/img/IMG_4870_1.jpg"
                      alt="imagem isa">
             </div>
             <div class="col-lg-8">
@@ -83,7 +83,7 @@
                     development, podendo realizar projetos a nível internacional. </p>
             </div>
             <div class="col-lg-4">
-                <img id="imagemluis" class="textosobreanimacaoluis" src="aiony-haust-3TLl_97HNJo-unsplash.jpg"
+                <img id="imagemluis" class="textosobreanimacaoluis" src="assets/img/IMG_48_1.jpg"
                      alt="imagem luis">
             </div>
         </div>
@@ -91,5 +91,5 @@
 </main>
 <footer>
 </footer>
-<script src="sobre.js"></script>
+<script src="assets/js/sobre.js"></script>
 </body>
