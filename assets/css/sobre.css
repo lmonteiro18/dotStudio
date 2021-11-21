@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.containersobre {
+    margin: 10vh 4vw;
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.titulosobre {
+    font-weight: normal;
+    font-size: 100px;
+    margin-top: -1vw;
+}
+
+.titulonomes {
+    font-weight: normal;
+    font-size: 70px;
+    padding-bottom: 3vw;
+}
+
+.rowsobre {
+    padding-bottom: 27vw;
+}
+.textosobreanimacao{
+    position: relative;
+    left: -5000px;
+    transition-property: position, left;
+    transition-duration: 2s, 2s;
+    transition-delay: 1s, 1s;
+}
+.textosobreanimacaoiris{
+    position: relative;
+    right: -5000px;
+    transition-property: position, right;
+    transition-duration: 2s, 2s;
+    transition-delay: 1s, 1s;
+}
+.textosobreanimacaoisa{
+    position: relative;
+    left: -5000px;
+    transition-property: position, left;
+    transition-duration: 2s, 2s;
+
+}
+.textosobreanimacaoluis{
+    position: relative;
+    right: -5000px;
+    transition-property: position, right;
+    transition-duration: 2s, 2s;
+}
+
+.tituloiris {
+    text-align: right;
+}
+
+.rowtextoiris {
+    padding-bottom: 43vw;
+}
+
+.rowtextoiris > .col-lg-8 > p {
+    text-align: right;
+    padding-left: 5vw;
+    top: -25%;
+    transform: translateY(75%);
+}
+
+.rowtextoisa {
+    padding-bottom: 43vw;
+}
+
+.rowtextoisa > .col-lg-8 > p {
+    padding-right: 5vw;
+    top: -15%;
+    transform: translateY(85%);
+}
+.tituloluis {
+    text-align: right;
+}
+.rowtextoluis {
+    padding-bottom: 43vw;
+}
+
+.rowtextoluis > .col-lg-8 > p {
+    text-align: right;
+    padding-left: 5vw;
+    top: -25%;
+    transform: translateY(75%);
+}
+
+#imagemiris {
+    width: 300px;
+    height: auto;
+    float: right;
+}
+
+#imagemisa {
+    width: 300px;
+    height: auto;
+}
+
+#imagemluis {
+    width: 300px;
+    height: auto;
+    float: right;
+}
+
+@media screen and (max-width: 1199px) {
+    /*body {
+        background-color: lightblue;
+    }*/
+    p {
+        font-size: 27px;
+    }
+    .textosobreanimacao{
+        padding-top: 3vw;
+    }
+    .rowsobre {
+        padding-bottom: 9vw;
+    }
+    .rowtextoiris > .col-lg-8 > p{
+        top: 0;
+        transform: translateY(0);
+    }
+    #imagemiris{
+        padding-top: 3vw;
+    }
+    .rowtextoisa > .col-lg-8 > p{
+        top: 0;
+        transform: translateY(-135%);
+    }
+    #imagemisa {
+        top: -10%;
+        transform: translateY(90%);
+    }
+    .rowtextoisa{
+        padding-bottom: 10vw;
+    }
+    .rowtextoluis > .col-lg-8 > p {
+        top: 0;
+        transform: translateY(0);
+    }
+    #imagemluis{
+        padding-top: 3vw;
+    }
+}
+@media screen and (max-width: 1148px) {
+    /*body {
+        background-color: lightcoral;
+    }*/
+}
+
+@media screen and (max-width: 980px) {
+    /*body {
+        background-color: lightgreen;
+    }*/
+    .rowtextoisa > .col-lg-8 > p{
+        top: 0;
+        transform: translateY(-120%);
+    }
+    #imagemisa {
+        top: -5%;
+        transform: translateY(95%);
+    }
+}
+
