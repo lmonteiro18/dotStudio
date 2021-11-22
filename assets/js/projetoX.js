@@ -10,6 +10,21 @@ function showDetalhes() {
     }
 }
 
+/*function showDetalhes() {
+    var x = document.getElementById("div_detalhes");
+    var y = document.getElementById("subtitle_detalhes");
+    if (x.style.height === "auto") {
+        x.style.height = "0";
+        y.style.display = "block";
+    } else {
+        x.style.height = "0";
+        setTimeout(function () {
+            x.style.height = "auto";
+        },1);
+        y.style.display = "none";
+    }
+}*/
+
 function showConceito() {
     var x = document.getElementById("div_conceito");
     var y = document.getElementById("subtitle_conceito");
@@ -45,51 +60,4 @@ function showWebsite() {
         y.style.display = "none";
     }
 }
-
-
-//https://cssanimation.rocks/scroll-animations/
-
-window.addEventListener('scroll', function() {
-    console.log("Scrollin'");
-});
-
-var scroll = window.requestAnimationFrame ||
-    function(callback){ window.setTimeout(callback, 1000/60)};
-
-var elementsToShow = document.querySelectorAll('.show-on-scroll');
-
-function loop() {
-
-    elementsToShow.forEach(function (element) {
-        if (isElementInViewport(element)) {
-            element.classList.add('is-visible');
-        } else {
-            element.classList.remove('is-visible');
-        }
-    });
-
-    scroll(loop);
-}
-
-loop();
-
-// Helper function from: http://stackoverflow.com/a/7557433/274826
-function isElementInViewport(el) {
-    // special bonus for those using jQuery
-    if (typeof jQuery === "function" && el instanceof jQuery) {
-        el = el[0];
-    }
-    var rect = el.getBoundingClientRect();
-    return (
-        (rect.top <= 0
-            && rect.bottom >= 0)
-        ||
-        (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
-            rect.top <= (window.innerHeight || document.documentElement.clientHeight))
-        ||
-        (rect.top >= 0 &&
-            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
-    );
-}
-
 
