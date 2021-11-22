@@ -16,14 +16,16 @@
     <!-- FontAwesome Script -->
     <script src="https://kit.fontawesome.com/4d4aefe869.js" crossorigin="anonymous"></script>
 
-    <link href="header.css" rel="stylesheet" type="text/css">
-    <link href="footer.css" rel="stylesheet" type="text/css">
-    <link href="contactos.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/header_branco.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/footer_branco.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/contactos.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main_branco.css">
 
 </head>
 <body>
 
 <?php include "header.php" ?>
+<?php include "mobile_header.php" ?>
 
 <main>
     <!------------------------------------------------------------------------------Contactos------------------------------------------------------------------------------>
@@ -65,7 +67,7 @@
             </div>
             <div class="rowinfopessoal">
                 <div class="col-lg-12 col-sm-12 infopessoal">
-                    <div class="col-lg-4 col-sm-12 infopessoaliris" >
+                    <div class="col-lg-4 col-sm-12 infopessoaliris">
                         <h3>ÍRIS PEREIRA</h3>
                     </div>
                     <div class="col-lg-4 col-sm-12 infopessoaliriscontactos">
@@ -73,7 +75,7 @@
                         <p><a href="https://www.behance.net/">Behance</a><br><br>
                             <a href="https://pt.linkedin.com/">Linkedin</a></p>
                     </div>
-                    <div class="col-lg-4 col-sm-12 infopessoalisa" >
+                    <div class="col-lg-4 col-sm-12 infopessoalisa">
                         <h3>ISA ROXO</h3>
                     </div>
                     <div class="col-lg-4 col-sm-12 infopessoalisacontactos">
@@ -81,7 +83,7 @@
                         <p><a href="https://www.behance.net/">Behance</a><br><br>
                             <a href="https://pt.linkedin.com/">Linkedin</a></p>
                     </div>
-                    <div class="col-lg-4 col-sm-12 infopessoalluis" >
+                    <div class="col-lg-4 col-sm-12 infopessoalluis">
                         <h3>LUÍS MONTEIRO</h3>
                     </div>
                     <div class="col-lg-4 col-sm-12 infopessoalluiscontactos">
@@ -108,7 +110,8 @@
                     </div>
                     <div class="col-lg-8 col-sm-12 rowinputmensagem">
                         <label class="mensagem" for="inputmensagem">Mensagem</label><br>
-                        <textarea id="inputmensagem" name="inputmensagem" placeholder="Escreve aqui a tua mensagem..."></textarea>
+                        <textarea id="inputmensagem" name="inputmensagem"
+                                  placeholder="Escreve aqui a tua mensagem..."></textarea>
                     </div>
                 </div>
                 <div class="rowemail">
@@ -124,8 +127,9 @@
     </div>
 </main>
 
-    <?php include "footer.php" ?>
+<?php include "footer.php" ?>
 
-<script src="contactos.js"></script>
+<script src="assets/js/mobile_header.js"></script>
+<script src="assets/js/contactos.js"></script>
 </body>
 

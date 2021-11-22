@@ -34,7 +34,6 @@
 }
 
 .seta_irProjetos {
-    background-image: url("seta-homepage-01.png");
     cursor: pointer;
     float: right;
     height: auto;
@@ -62,6 +61,7 @@
 
 #Filtros > ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
     list-style: none;
     padding: 0;
@@ -153,6 +153,37 @@
     width: 200px;
 }
 
+#BarraPesquisa {
+    align-items: center;
+    background: rgba(0,0,0,0.75);
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    transition: all .5s;
+    width: 100vw;
+    height: 100vh;
+}
+
+#BarraPesquisa i{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: 20px;
+    transition: all 4s ease;
+}
+
+#BarraPesquisa p{
+    border-bottom: 3px solid white;
+    font-size: 2rem;
+    height: 75px;
+    margin-top: 40px;
+    width: 70%;
+}
+
 #listaProjetos {
     height: auto;
     /* overflow-y: scroll; */
@@ -225,7 +256,7 @@
     }
 
     .projetos-titulo h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     #Filtros, #Ordenacao {
@@ -250,17 +281,121 @@
         list-style: none;
     }
 
-    #FiltrosMobile, #OrdenacaoMobile {
-        display: none;
-        justify-content: flex-start;
-        position: absolute;
+    .botao-filtrar-mobile {
+        cursor: pointer;
+        z-index: 50;
     }
+
+    .esconder-botao-filtrar-mobile {
+        z-index: 30;
+    }
+
+    .FiltrosMobile, .OrdenacaoMobile {
+        align-items: center;
+        background-color: black;
+        color: white;
+        display: none;
+        flex-direction: row;
+        height: 100vh;
+        left: 0;
+        opacity: 0;
+        padding-left: 15px;
+        position: fixed;
+        text-align: left;
+        top: 0;
+        transition: opacity .5s ease;
+        width: 100%;
+        z-index: 40;
+    }
+
+    .showFiltros {
+        display: flex;
+    }
+
+    .changeOpacity {
+        opacity: 100%;
+        transition: opacity .5s ease;
+    }
+
+    .FiltrosMobile ul, .OrdenacaoMobile ul {
+        font-size: 1.4rem;
+        list-style: none;
+        padding: 0;
+    }
+
+    .filtro-mobile, .ordenacao-mobile {
+        margin-bottom: 15px;
+    }
+
+    .ordenacao-mobile {
+        cursor: pointer;
+        transition: color .5s;
+    }
+
+    .ordenacao-mobile:first-child:hover {
+        color: #E111A7;
+    }
+
+    .ordenacao-mobile:nth-child(2):hover {
+        color: #00FFFF;
+    }
+
+    .ordenacao-mobile:nth-child(3):hover {
+        color: #B4FF00;
+    }
+
+    .ordenacao-mobile:last-child:hover {
+        color: #0000FF;
+    }
+
+
+
+    #PesquisaMobile {
+        bottom: -175px;
+        margin: 70px 0 0 0;
+        position: absolute;
+        right: 0;
+        width: 200px;
+    }
+
+    #BarraPesquisaMobile {
+        align-items: center;
+        background: rgba(0,0,0,0.75);
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+        left: 0;
+        opacity: 0;
+        position: fixed;
+        top: 0;
+        transition: all .5s;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #BarraPesquisaMobile i{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-right: 20px;
+        transition: all 4s ease;
+    }
+
+    #BarraPesquisaMobile p{
+        border-bottom: 3px solid white;
+        font-size: 2rem;
+        height: 75px;
+        margin-top: 40px;
+        width: 70%;
+    }
+
+
 
     .projeto {
         padding-right: 0;
     }
 
-    .thumbnail_title{
+    .thumbnail_title {
         padding: 0 15px 0 15px;
     }
 }

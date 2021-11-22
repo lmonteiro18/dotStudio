@@ -9,14 +9,23 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- FontAwesome Script -->
+    <script src="https://kit.fontawesome.com/4d4aefe869.js" crossorigin="anonymous"></script>
+
     <!--https://www.w3schools.com/bootstrap/bootstrap_get_started.asp e
     https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_default&stacked=h
     sites sobre bootstrap-->
-    <link href="sobre.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="assets/css/header_branco.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/footer_branco.css">
+    <link href="assets/css/sobre.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main_branco.css">
 </head>
 <body>
-<header>
-</header>
+
+<?php include "header.php" ?>
+<?php include "mobile_header.php" ?>
+
 <main>
     <!------------------------------------------------------------------------------Sobre------------------------------------------------------------------------------>
     <div class="containersobre">
@@ -49,7 +58,7 @@
                     branding design são duas das áreas de design gráfico de eu gosto de trabalhar. </p>
             </div>
             <div class="col-lg-4">
-                <img id="imagemiris" class="textosobreanimacaoiris" src="IMG_8498_1%20-%20square.jpg"
+                <img id="imagemiris" class="textosobreanimacaoiris" src="assets/img/IMG_8498_1%20-%20square.jpg"
                      alt="imagem íris">
             </div>
         </div>
@@ -60,7 +69,7 @@
         </div>
         <div class="rowtextoisa">
             <div class="col-lg-4">
-                <img id="imagemisa" class="textosobreanimacaoisa" src="IMG_4870_1.jpg"
+                <img id="imagemisa" class="textosobreanimacaoisa" src="assets/img/IMG_4870_1.jpg"
                      alt="imagem isa">
             </div>
             <div class="col-lg-8">
@@ -83,13 +92,15 @@
                     development, podendo realizar projetos a nível internacional. </p>
             </div>
             <div class="col-lg-4">
-                <img id="imagemluis" class="textosobreanimacaoluis" src="aiony-haust-3TLl_97HNJo-unsplash.jpg"
+                <img id="imagemluis" class="textosobreanimacaoluis" src="assets/img/aiony-haust-3TLl_97HNJo-unsplash.jpg"
                      alt="imagem luis">
             </div>
         </div>
     </div>
 </main>
-<footer>
-</footer>
-<script src="sobre.js"></script>
+
+<?php include "footer.php" ?>
+
+<script src="assets/js/mobile_header.js"></script>
+<script src="assets/js/sobre.js"></script>
 </body>

@@ -42,7 +42,7 @@
 <div id="Projetos">
     <div class="projetos-titulo">
         <h1>Projetos</h1>
-        <img class="seta_irProjetos" src="/assets/img/seta_homepage-02.png" width="208" height="208" alt="seta">
+        <img class="seta_irProjetos" src="assets/img/seta_homepage-02.png" width="208" height="208" alt="seta">
     </div>
 
     <div id="Filtros">
@@ -62,22 +62,29 @@
                 <li class="botao-filtrar-mobile">Ordenar</li>
             </ul>
         </div>
-        <div id="FiltrosMobile">
+        <div class="FiltrosMobile">
             <ul>
-                <li class="filtro-mobile">Aplicações</li>
-                <li class="filtro-mobile">Audiovisual</li>
-                <li class="filtro-mobile">Design Gráfico</li>
-                <li class="filtro-mobile">Motion Graphics</li>
-                <li class="filtro-mobile">Ver Tudo</li>
+                <li class="filtro filtro-mobile">Aplicações</li>
+                <li class="filtro filtro-mobile">Audiovisual</li>
+                <li class="filtro filtro-mobile">Design Gráfico</li>
+                <li class="filtro filtro-mobile">Motion Graphics</li>
+                <li class="filtro filtro-mobile">Ver Tudo</li>
             </ul>
         </div>
-        <div id="OrdenacaoMobile">
+        <div class="OrdenacaoMobile">
             <ul>
                 <li class="ordenacao-mobile">De A a Z</li>
                 <li class="ordenacao-mobile">De Z a A</li>
                 <li class="ordenacao-mobile">De Hoje a 2018</li>
                 <li class="ordenacao-mobile">De 2018 a Hoje</li>
             </ul>
+        </div>
+        <div id="PesquisaMobile">
+            <i class="fas fa-search fa-3x"></i>
+            <div id="BarraPesquisaMobile">
+                <i class="fas fa-search fa-3x"></i>
+                <p></p>
+            </div>
         </div>
     </div>
 
@@ -94,6 +101,10 @@
         </div>
         <div id="Pesquisa">
             <div id="contentorAnimacaoLupa"></div>
+            <div id="BarraPesquisa">
+                <i class="fas fa-search fa-3x"></i>
+                <p></p>
+            </div>
         </div>
     </div>
 

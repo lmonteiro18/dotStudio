@@ -1,7 +1,7 @@
 nav {
     /*background-color: darkgrey;*/
     align-items: center;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: row;
     font-weight: normal;
@@ -52,7 +52,7 @@ nav {
 }
 
 .menu-navegacao-subtitulo a {
-    color: white;
+    color: black;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -75,7 +75,7 @@ nav {
 
 #mobile-header {
     display: none;
-    color: white;
+    color: black;
 }
 
 @media screen and (max-width: 768px) {
@@ -107,7 +107,7 @@ nav {
     }
 
     .mobile-nav-flex-container {
-        background-color: black;
+        background-color: white;
         height: 100vh;
         left: 0;
         margin-top: 0;
@@ -117,10 +117,6 @@ nav {
         transition: top 1.5s;
         width: 100%;
         z-index: 20;
-    }
-
-    .slide{
-        top:0;
     }
 
     .mobile-menu-navegacao {

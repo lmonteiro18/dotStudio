@@ -1,12 +1,21 @@
 let setaProjetos = document.querySelector(".seta_irProjetos");
 let filtros = document.querySelector("#Filtros");
+let filtrosMobile = document.querySelector("#DivBotoesFiltragemMobile");
 
 setaProjetos.addEventListener("click", function () {
-    filtros.scrollIntoView({
-        block: "start",
-        inline: "center",
-        behavior: "smooth"
-    });
+    if (filtros.style.display !== "none") {
+        filtros.scrollIntoView({
+            block: "start",
+            inline: "center",
+            behavior: "smooth"
+        });
+    }else{
+        filtrosMobile.scrollIntoView({
+            block: "start",
+            inline: "center",
+            behavior: "smooth"
+        });
+    }
     $("body").css({"overflow-y": "scroll", "width": "calc(100vw - 17px)"});
 });
 
@@ -26,7 +35,7 @@ projetosDesordenados.push(new Projeto("Visualizadores de Música", "Visualizador
 projetosDesordenados.push(new Projeto("E-120", "E120", "Audiovisual", new Date(), "p4_mockup1.png", "Algum texto só para encher"));
 projetosDesordenados.push(new Projeto("All Summer In a Day", "All-Summer-In-a-Day", "Aplicações", new Date(), "p4_mockup1.png", "Outra vez a escrever texto ao calhas"));
 projetosDesordenados.push(new Projeto("5Sense", "5Sense", "Aplicações", new Date(), "p4_mockup1.png", "Algum texto só para encher"));
-projetosDesordenados.push(new Projeto("StepUpArt", "StepUpArt", "Aplicações", new Date(2021, 7, 22), "p4_mockup1.png", "Outra vez a escrever texto ao calhas"));
+projetosDesordenados.push(new Projeto("StepUpArt", "ProjetoX", "Aplicações", new Date(2021, 7, 22), "p4_mockup1.png", "Outra vez a escrever texto ao calhas"));
 projetosDesordenados.push(new Projeto("Padrões", "Padroes", "Design Gráfico", new Date(), "p4_mockup1.png", "Algum texto só para encher"));
 projetosDesordenados.push(new Projeto("CCDM", "CCDM", "Design Gráfico", new Date(), "p4_mockup1.png", "Outra vez a escrever texto ao calhas"));
 projetosDesordenados.push(new Projeto("Poema Dinâmico", "Poema-Dinamico", "Audiovisual", new Date(), "p4_mockup1.png", "Algum texto só para encher"));
@@ -75,7 +84,8 @@ let infoColunas = [{
 let listaProjetos = document.querySelector("#listaProjetos>.row");
 let projetos;
 
-function recarregarProjetos(ordenacaoAlfabetica, crescente) {
+function recarregarProjetos(ordenacaoAlfabetica, crescente, pesquisa) {
+    if(pesquisa === ""){}
 
     if (ordenacaoAlfabetica === true) {
         projetos = projetosDesordenados.sort(function (a, b) {
@@ -137,7 +147,7 @@ function recarregarProjetos(ordenacaoAlfabetica, crescente) {
         divProjeto.classList.add(infoColunas[i % 12].mobile);
 
         let link = document.createElement("a");
-        link.setAttribute("href", "/projetos/" + projetos[i].nomePesquisa);
+        link.setAttribute("href", projetos[i].nomePesquisa + ".php");
 
         let divThumbnail = document.createElement("div");
         divThumbnail.classList.add("thumbnail");
