@@ -34,9 +34,9 @@
 <?php include "mobile_header.php" ?>
 
 <div class="image-carousel">
-    <img class="image-carousel-img" srcset="assets/img/p4_mockup1.png 480w,
-             assets/img/p4_mockup1.png 800w" sizes="(max-width: 600px) 480px,
-            800px" src="assets/img/p4_mockup1.png" alt="StepUpArt App">
+    <img class="image-carousel-img" srcset="assets/img/p4_mockup1.PNG 480w,
+             assets/img/p4_mockup1.PNG 800w" sizes="(max-width: 600px) 480px,
+            800px" src="assets/img/p4_mockup1.PNG" alt="StepUpArt App">
 </div>
 
 <div id="Projetos">
