@@ -4,7 +4,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: black;
-
+    overflow-x: hidden;
 }
 
 .containercontactos {
@@ -50,16 +50,20 @@ p {
 .textocontactosstudio {
     font-size: 30px;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-a:hover{
+
+a:hover {
     color: #00FFFF;
 }
-a:focus{
+
+a:focus {
     color: #00FFFF;
 }
+
 .emailstudio {
     left: 23%;
     transform: translateX(-77%);
@@ -75,7 +79,8 @@ a:focus{
     top: 50%;
     transform: translateY(-55%);
 }
-.infopessoalisa, .infopessoaliris{
+
+.infopessoalisa, .infopessoaliris {
     display: block;
     width: 28%;
     margin-left: 1.45%;
@@ -87,7 +92,8 @@ a:focus{
     padding: 8vh 4vw;
     cursor: pointer;
 }
-.infopessoalluis{
+
+.infopessoalluis {
     width: 28%;
     margin-left: 1.45%;
     margin-top: 2vw;
@@ -97,7 +103,8 @@ a:focus{
     padding: 8vh 4vw;
     cursor: pointer;
 }
-.infopessoaliriscontactos, .infopessoalisacontactos{
+
+.infopessoaliriscontactos, .infopessoalisacontactos {
     display: none;
     width: 28%;
     margin-left: 1.45%;
@@ -110,7 +117,8 @@ a:focus{
     padding: 10vh 4vw;
     cursor: pointer;
 }
-.infopessoalluiscontactos{
+
+.infopessoalluiscontactos {
     display: none;
     width: 28%;
     margin-left: 1.45%;
@@ -123,23 +131,28 @@ a:focus{
     cursor: pointer;
 }
 
-.infopessoalisa>h3, .infopessoaliris>h3,.infopessoalluis>h3,.infopessoaliriscontactos>h3, .infopessoalisacontactos>h3, .infopessoalluiscontactos>h3{
+.infopessoalisa > h3, .infopessoaliris > h3, .infopessoalluis > h3, .infopessoaliriscontactos > h3, .infopessoalisacontactos > h3, .infopessoalluiscontactos > h3 {
     font-size: 30px;
     font-weight: 500;
 }
-.infopessoaliriscontactos>h3, .infopessoalisacontactos>h3, .infopessoalluiscontactos>h3{
+
+.infopessoaliriscontactos > h3, .infopessoalisacontactos > h3, .infopessoalluiscontactos > h3 {
     margin-bottom: 3vw;
     margin-top: 0;
     padding-top: 0;
 }
-.infopessoal{
+
+.infopessoal {
     padding-top: 4vw;
     padding-bottom: 11vw;
 }
 
-.containerfalaconnoscofundo{
+.containerfalaconnoscofundo {
     background-color: black;
     box-shadow: 0 -10px 20px #00FFFF;
+    left: -70px;
+    position: relative;
+    width: 98.9vw;
 }
 
 .containerfalaconnosco {
@@ -148,20 +161,23 @@ a:focus{
     margin-right: 4vw;
     overflow-x: hidden;
 }
-.titulofalaconnosco{
+
+.titulofalaconnosco {
     font-weight: normal;
     font-size: 70px;
     padding-top: 3vw;
     padding-bottom: 4vw;
     color: white;
 }
-.nome, .email, .mensagem{
+
+.nome, .email, .mensagem {
     color: white;
     font-size: 30px;
     font-weight: 500;
     padding-bottom: 3vw;
 }
-#inputnome, #inputemail{
+
+#inputnome, #inputemail {
     background-color: black;
     border: 2px solid white;
     width: 70%;
@@ -170,7 +186,8 @@ a:focus{
     padding: 1vw;
     font-size: 20px;
 }
-#inputmensagem{
+
+#inputmensagem {
     background-color: black;
     border: 2px solid white;
     width: 100%;
@@ -179,14 +196,17 @@ a:focus{
     padding: 0.5vw;
     font-size: 20px;
 }
-.rowinputemail{
+
+.rowinputemail {
     top: 10%;
     transform: translateY(-102%);
 }
-.rowsubmit{
+
+.rowsubmit {
     margin-top: -9vw;
 }
-.submit{
+
+.submit {
     background-color: #f9f9f9;
     border: 2px solid black;
     box-shadow: 0 0 20px #00FFFF;
@@ -194,20 +214,37 @@ a:focus{
     font-size: 30px;
     font-weight: 500;
 }
+
+footer{
+    bottom: -30px;
+    left: -70px;
+    padding: 30px 70px 30px 70px;
+    position: relative;
+    width: 98.9vw;
+}
+
+footer a{
+    color: white;
+}
+
 @media screen and (max-width: 1474px) {
-    .infopessoalisa, .infopessoaliris{
+    .infopessoalisa, .infopessoaliris {
         padding: 8vh 1.9vw;
     }
-    .infopessoalluis{
+
+    .infopessoalluis {
         padding: 8vh 1.9vw;
     }
-    .infopessoaliriscontactos, .infopessoalisacontactos{
+
+    .infopessoaliriscontactos, .infopessoalisacontactos {
         padding: 10vh 1.9vw;
     }
-    .infopessoalluiscontactos{
+
+    .infopessoalluiscontactos {
         padding: 10vh 1.9vw;
     }
 }
+
 @media screen and (max-width: 1199px) {
     /*body {
         background-color: lightblue;
@@ -215,12 +252,15 @@ a:focus{
     p {
         font-size: 27px;
     }
+
     .rowcontactos {
         padding-bottom: 20vw;
     }
+
     .textostudio {
         padding: 10vh 7vw 65vh 7vw;
     }
+
     .emailstudio {
         margin-top: 5vw;
         left: 0;
@@ -231,56 +271,69 @@ a:focus{
         left: 0;
         transform: translateX(0);
     }
+
     .redessociais {
         margin-top: 5vw;
         top: 0;
         transform: translateY(0);
     }
-    .infopessoalisa, .infopessoaliris{
+
+    .infopessoalisa, .infopessoaliris {
         display: none;
     }
-    .infopessoalluis{
+
+    .infopessoalluis {
         display: none;
     }
-    .infopessoaliriscontactos, .infopessoalisacontactos{
+
+    .infopessoaliriscontactos, .infopessoalisacontactos {
         display: block;
         width: 97%;
         padding: 6vh 4vw;
     }
-    .infopessoalisacontactos{
+
+    .infopessoalisacontactos {
         margin-top: 6vw;
     }
-    .infopessoalluiscontactos{
+
+    .infopessoalluiscontactos {
         margin-top: 6vw;
         display: block;
         width: 97%;
         padding: 6vh 4vw;
     }
-    #inputnome, #inputemail{
+
+    #inputnome, #inputemail {
         width: 100%;
     }
-    #inputmensagem{
+
+    #inputmensagem {
         width: 100%;
     }
-    .rowinputnome{
+
+    .rowinputnome {
         margin-top: 10vw;
         font-size: 27px;
     }
-    .rowinputemail{
+
+    .rowinputemail {
         top: 0;
         transform: translateY(-190%);
         font-size: 27px;
     }
-    .rowinputmensagem{
+
+    .rowinputmensagem {
         top: -23%;
         transform: translateY(77%);
         font-size: 27px;
     }
-    .submit{
+
+    .submit {
         margin-top: 25vw;
         margin-bottom: 5vw;
     }
 }
+
 @media screen and (max-width: 1148px) {
     /*body {
         background-color: lightcoral;
@@ -294,20 +347,36 @@ a:focus{
     p {
         font-size: 27px;
     }
+
     .containercontactos {
-        margin: 13vw 4vw;
+        margin: 100px 0;
     }
+
     .textostudio {
         padding: 10vw 7vw 84vw 7vw;
     }
-    .infopessoaliriscontactos, .infopessoalisacontactos{
+
+    .infopessoaliriscontactos, .infopessoalisacontactos {
         padding: 8vw 4vw;
     }
-    .infopessoalluiscontactos{
+
+    .infopessoalluiscontactos {
         padding: 8vw 4vw;
     }
+
     .containerfalaconnosco {
         margin-top: 13vw;
     }
 }
 
+@media screen and (max-width: 768px) {
+    .containerfalaconnoscofundo{
+        left: -30px;
+        width: 100vw;
+    }
+
+    footer{
+        left: -30px;
+        width: 100vw;
+    }
+}

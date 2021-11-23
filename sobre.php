@@ -6,6 +6,8 @@
     <meta charset="UTF-8">
     <title>Sobre</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -92,7 +94,7 @@
                     development, podendo realizar projetos a nível internacional. </p>
             </div>
             <div class="col-lg-4">
-                <img id="imagemluis" class="textosobreanimacaoluis" src="assets/img/aiony-haust-3TLl_97HNJo-unsplash.jpg"
+                <img id="imagemluis" class="textosobreanimacaoluis" src="assets/img/IMG_48_1.jpg"
                      alt="imagem luis">
             </div>
         </div>

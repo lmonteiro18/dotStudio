@@ -16,7 +16,7 @@ setaProjetos.addEventListener("click", function () {
             behavior: "smooth"
         });
     }
-    $("body").css({"overflow-y": "scroll", "width": "calc(100vw - 17px)"});
+    //$("body").css({"overflow-y": "scroll", "width": "calc(100vw - 17px)"});
 });
 
 let Projeto = function (nome, pesquisa, tipo, realizadoEm, url, texto) {

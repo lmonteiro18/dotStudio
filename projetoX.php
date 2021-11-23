@@ -3,15 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>StepUpArt</title> <!--//mudar dependendo onde clicou-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="projetoX.css" media="screen">
+
+    <!-- FontAwesome Script -->
+    <script src="https://kit.fontawesome.com/4d4aefe869.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/header.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/projetoX.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body>
-<header>
 
-</header>
+<?php include "header.php" ?>
+<?php include "mobile_header.php" ?>
+
 <div class="row" style="margin-left: 4vw">
     <div class="col-lg-12">
         <h1 class="title">StepUpArt</h1><br> <!--mudar dependendo onde clicou-->
@@ -251,10 +262,11 @@
         </div>
     </div>
 </main>
-<footer>
 
-</footer>
-<script src="projetoX.js"></script>
+<?php include "footer.php" ?>
+
+<script src="assets/js/mobile_header.js"></script>
+<script src="assets/js/projetoX.js"></script>
 </body>
 </html>
 
