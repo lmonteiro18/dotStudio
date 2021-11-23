@@ -30,18 +30,18 @@ let Projeto = function (nome, pesquisa, tipo, realizadoEm, url, texto) {
 
 let projetosDesordenados = [];
 
-projetosDesordenados.push(new Projeto("Mario's Cubway", "Marios-Cubway", "Aplicações", new Date(), "p4_mockup1.png", "Algum texto só para encher"));
-projetosDesordenados.push(new Projeto("Visualizadores de Música", "Visualizadores-Musica", "Aplicações", new Date(), "p4_mockup1.png", "Outra vez a escrever texto ao calhas"));
-projetosDesordenados.push(new Projeto("E-120", "E120", "Audiovisual", new Date(), "p4_mockup1.png", "Algum texto só para encher"));
-projetosDesordenados.push(new Projeto("All Summer In a Day", "All-Summer-In-a-Day", "Aplicações", new Date(), "p4_mockup1.png", "Outra vez a escrever texto ao calhas"));
-projetosDesordenados.push(new Projeto("5Sense", "5Sense", "Aplicações", new Date(), "p4_mockup1.png", "Algum texto só para encher"));
-projetosDesordenados.push(new Projeto("StepUpArt", "ProjetoX", "Aplicações", new Date(2021, 7, 22), "p4_mockup1.png", "Outra vez a escrever texto ao calhas"));
-projetosDesordenados.push(new Projeto("Padrões", "Padroes", "Design Gráfico", new Date(), "p4_mockup1.png", "Algum texto só para encher"));
-projetosDesordenados.push(new Projeto("CCDM", "CCDM", "Design Gráfico", new Date(), "p4_mockup1.png", "Outra vez a escrever texto ao calhas"));
-projetosDesordenados.push(new Projeto("Poema Dinâmico", "Poema-Dinamico", "Audiovisual", new Date(), "p4_mockup1.png", "Algum texto só para encher"));
-projetosDesordenados.push(new Projeto("Moving Poster 1", "Moving-Poster-1", "Motion Graphics", new Date(), "p4_mockup1.png", "Outra vez a escrever texto ao calhas"));
-projetosDesordenados.push(new Projeto("Moving Poster 2", "Moving-Poster-2", "Motion Graphics", new Date(), "p4_mockup1.png", "Algum texto só para encher"));
-projetosDesordenados.push(new Projeto("Moving Poster 3", "Moving-Poster-3", "Motion Graphics", new Date(), "p4_mockup1.png", "Outra vez a escrever texto ao calhas"));
+projetosDesordenados.push(new Projeto("Mario's Cubway", "Marios-Cubway", "Aplicações", new Date(), "p4_mockup1.PNG", "Algum texto só para encher"));
+projetosDesordenados.push(new Projeto("Visualizadores de Música", "Visualizadores-Musica", "Aplicações", new Date(), "p4_mockup1.PNG", "Outra vez a escrever texto ao calhas"));
+projetosDesordenados.push(new Projeto("E-120", "E120", "Audiovisual", new Date(), "p4_mockup1.PNG", "Algum texto só para encher"));
+projetosDesordenados.push(new Projeto("All Summer In a Day", "All-Summer-In-a-Day", "Aplicações", new Date(), "p4_mockup1.PNG", "Outra vez a escrever texto ao calhas"));
+projetosDesordenados.push(new Projeto("5Sense", "5Sense", "Aplicações", new Date(), "p4_mockup1.PNG", "Algum texto só para encher"));
+projetosDesordenados.push(new Projeto("StepUpArt", "ProjetoX", "Aplicações", new Date(2021, 7, 22), "p4_mockup1.PNG", "Outra vez a escrever texto ao calhas"));
+projetosDesordenados.push(new Projeto("Padrões", "Padroes", "Design Gráfico", new Date(), "p4_mockup1.PNG", "Algum texto só para encher"));
+projetosDesordenados.push(new Projeto("CCDM", "CCDM", "Design Gráfico", new Date(), "p4_mockup1.PNG", "Outra vez a escrever texto ao calhas"));
+projetosDesordenados.push(new Projeto("Poema Dinâmico", "Poema-Dinamico", "Audiovisual", new Date(), "p4_mockup1.PNG", "Algum texto só para encher"));
+projetosDesordenados.push(new Projeto("Moving Poster 1", "Moving-Poster-1", "Motion Graphics", new Date(), "p4_mockup1.PNG", "Outra vez a escrever texto ao calhas"));
+projetosDesordenados.push(new Projeto("Moving Poster 2", "Moving-Poster-2", "Motion Graphics", new Date(), "p4_mockup1.PNG", "Algum texto só para encher"));
+projetosDesordenados.push(new Projeto("Moving Poster 3", "Moving-Poster-3", "Motion Graphics", new Date(), "p4_mockup1.PNG", "Outra vez a escrever texto ao calhas"));
 
 let infoColunas = [{
     desktop: "col-lg-5",
